@@ -3,10 +3,10 @@ Testes:
 Exp  ||	train acc	|| train loss	|| val acc || val loss	|| test acc	|| test loss || training time ||
 ---  || ---             || ---            || ---     || ---       || ---      || ---       || ---           ||
 1    || 94.00%          || 0.159551       || 94.74%  || 0.174357  || 92.19%   || 0.229864  || 14 min        ||
-2    || 84.62%          || 0.416115       || 87.22%  || 0.385254  || 85.16%   || 0.346792  || 06 min        ||
-3-a) || 97.29%          || 0.082328       || 97.74%  || 0.080598  || 95.31%   || 0.113199  || 02 min        ||
-3-b) || 97.29%          || 0.090308       || 98.50%  || 0.070932  || 91.41%   || 0.134259  || 04 min        ||
-3-c) || 97.97%          || 0.052710       || 98.50%  || 0.064117  || 93.75%   || 0.230505  || 11 min        ||
+2    || 87.43%          || 0.329751       || 92.48%  || 0.233386  || 85.94%   || 0.390936  || 06 min        ||
+3-a) || 98.26%          || 0.055598       || 98.50%  || 0.056195  || 96.09%   || 0.112185  || 03 min        ||
+3-b) || 95.84%          || 0.121377       || 96.24%  || 0.082859  || 91.41%   || 0.176876  || 04 min        ||
+3-c) || 95.84%          || 0.116910       || 98.50%  || 0.076800  || 94.53%   || 0.131344  || 11 min        ||
 
 
 https://colab.research.google.com/drive/1vbsj_MysbOn23sX-VEfPNyZsClUPHzFQ?usp=sharing
@@ -17,24 +17,24 @@ https://colab.research.google.com/drive/1vbsj_MysbOn23sX-VEfPNyZsClUPHzFQ?usp=sh
 [Test loss: 0.229864 , Test acc.:92.19%]
 
 2
-[Train loss: 0.416115 , Validation acc.:84.62%]
-[Validation loss: 0.385254 , Validation acc.:87.22%]
-[Test loss: 0.346792 , Test acc.:85.16%]
+[Train loss: 0.329751 , Validation acc.:87.43%]
+[Validation loss: 0.233386 , Validation acc.:92.48%]
+[Test loss: 0.390936 , Test acc.:85.94%]
 
 3.a
-[Train loss: 0.082328 , Validation acc.:97.29%]
-[Validation loss: 0.080598 , Validation acc.:97.74%]
-[Test loss: 0.113199 , Test acc.:95.31%]
+[Train loss: 0.055598 , Validation acc.:98.26%]
+[Validation loss: 0.056195 , Validation acc.:98.50%]
+[Test loss: 0.112185 , Test acc.:96.09%]
 
 3.b
-[Train loss: 0.090308 , Validation acc.:97.29%]
-[Validation loss: 0.070932 , Validation acc.:98.50%]
-[Test loss: 0.134259 , Test acc.:91.41%]
+[Train loss: 0.121377 , Validation acc.:95.84%]
+[Validation loss: 0.082859 , Validation acc.:96.24%]
+[Test loss: 0.176876 , Test acc.:91.41%]
 
 3.c
-[Train loss: 0.052710 , Validation acc.:97.97%]
-[Validation loss: 0.064117 , Validation acc.:98.50%]
-[Test loss: 0.230505 , Test acc.:93.75%]
+[Train loss: 0.116910 , Validation acc.:95.84%]
+[Validation loss: 0.076800 , Validation acc.:98.50%]
+[Test loss: 0.131344 , Test acc.:94.53%]
 
 1.1 14min
 [Train loss: 0.220514 , Validation acc.:92.07%]
